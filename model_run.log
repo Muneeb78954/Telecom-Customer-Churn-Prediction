@@ -1,0 +1,39 @@
+
+============================================================
+CHURN PREDICTION - KEY IMPROVEMENTS
+============================================================
+
+[1/4] Loading data...
+  Train: (219197, 18) | Test: (24356, 17)
+  Churn rate: 20.05%
+
+[2/4] Basic feature engineering...
+  Features created: 27
+
+[3/4] Preprocessing...
+  Preprocessing complete
+
+[4/4] Training CatBoost with improvements...
+  Fold 1/5...
+ Best F1=0.3341
+  Fold 2/5...
+ Best F1=0.3340
+  Fold 3/5...
+ Best F1=0.3340
+  Fold 4/5...
+ Best F1=0.3340
+  Fold 5/5...
+ Best F1=0.3340
+
+  Optimizing threshold...
+
+  BEST F1 SCORE: 0.3340
+  BEST THRESHOLD: 0.450
+
+  Submission saved!
+  Predicted churned: 24356 (100.00%)
+
+============================================================
+SUCCESS - Check submission.csv
+============================================================
+

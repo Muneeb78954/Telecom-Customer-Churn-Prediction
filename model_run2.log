@@ -1,0 +1,42 @@
+
+======================================================================
+IMPROVED CHURN PREDICTION MODEL
+======================================================================
+
+[1/5] Loading & EDA...
+Train: (219197, 18) | Test: (24356, 17)
+Churn rate: 20.05%
+Class distribution - 0: 175253, 1: 43944
+
+[2/5] Feature Engineering...
+Features: 46
+
+[3/5] Preprocessing...
+Preprocessing complete
+
+[4/5] Training Models...
+  Fold 1...
+done
+  Fold 2...
+done
+  Fold 3...
+done
+  Fold 4...
+done
+  Fold 5...
+done
+
+[5/5] Optimization...
+
+  Best Threshold: 0.250
+  OOF F1 Score: 0.3340
+  Precision: 0.2005
+  Recall: 0.9999
+
+  Submission saved!
+  Predicted churned: 24356 (100.00%)
+  Predicted retained: 0 (0.00%)
+
+======================================================================
+SUCCESS!
+======================================================================
